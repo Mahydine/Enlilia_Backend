@@ -12,8 +12,7 @@ class ArticlesController extends Controller
     return response()->json($books);
    }
 
-   public function store(Request $request){
-    $article = new Articles;
-
+   public function test(Request $request){
+    return response()->json(["test" => "test"]);
    }
 }
